@@ -14,8 +14,8 @@ Homepage = "https://yourname.dev/projects/random-wikipedia-article"
 random-wikipedia-article = "random_wikipedia_article:main"
 
 [tool.hatch.version]
-path = "random_wikipedia_article.py"
+source = "vcs"
 
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
